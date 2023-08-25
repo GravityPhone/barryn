@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Barbarian Idle Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="main-screen">
+      <h1>Barbarian Idle Game</h1>
+      <div id="stats">
+        <p>Gold: <span id="gold">0</span></p>
+        <p>Experience: <span id="experience">0</span></p>
+        <p>XP to next level: <span id="xp-to-next-level">0</span></p> <!-- Set initial value to 0 -->
+        <p>Level: <span id="level">1</span></p>
+      </div>
+      <div id="upgrades"> <!-- New section for upgrades -->
+        <button id="xp-upgrade-button">Upgrade XP Gain (+10% XP per adventure, cost: 500 gold)</button>
+        <button id="buy-club-button">Buy Club (+10% XP per adventure, cost: 500 gold)</button> <!-- Add a "Buy" button for the club -->
+      </div>
+      <button id="adventure-button">Adventure</button>
+      <button id="auto-adventure-button">Auto-Adventure</button>
+      <div id="inventory"> <!-- New section for inventory -->
+        <h2>Inventory</h2>
+        <ul id="inventory-list"></ul>
+      </div>
+    </div>
+    <script src="/client.js"></script>
+  </body>
+</html>

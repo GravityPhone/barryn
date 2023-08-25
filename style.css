@@ -1,0 +1,115 @@
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+#main-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+// Removed unused selectors
+
+.button {
+  padding: 10px 20px;
+  font-size: 24px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: #3E8E41;
+}
+
+.blue-button {
+  background-color: #2196F3;
+  margin-right: 0;
+}
+
+.blue-button:hover {
+  background-color: #0D47A1;
+}
+}
+
+#weapon-upgrade-button,
+#armor-upgrade-button {
+  margin-left: 10px;
+}
+
+#weapon-upgrade-button:disabled,
+#armor-upgrade-button:disabled {
+  background-color: #777;
+  cursor: not-allowed;
+}
+
+#weapon-upgrade-button:disabled:hover,
+#armor-upgrade-button:disabled:hover {
+  background-color: #777;
+}
+
+#weapon-upgrade-button span,
+#armor-upgrade-button span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 5px;
+}
+
+// Removed unused selectors
+
+#enemy {
+  width: 200px;
+  height: 200px;
+  background-color: #f44336;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#enemy-stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+#enemy-stats p {
+  margin: 0;
+}
+
+#enemy-stats p span {
+  font-weight: bold;
+}
+
+#enemy-stats p span.health {
+  color: #f44336;
+}
+
+#enemy-stats p span.attack {
+  color: #4CAF50;
+}
+
+#enemy-stats p span.defense {
+  color: #2196F3;
+}
+
+// Removed unused selectors
